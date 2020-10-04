@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pad: 0;
+  --blur: 0;
+  --bg: #ccc;
+}
+
+body {
+  background: #333;
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-arou;
+}
+
+label {
+  margin: 0 1rem;
+}
+
+input {
+  margin-left: 0.5rem;
+}
+
+img {
+  padding: var(--pad);
+  filter: blur(var(--blur));
+  background: var(--bg);
+}
